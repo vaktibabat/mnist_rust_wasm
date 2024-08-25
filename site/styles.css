@@ -1,0 +1,60 @@
+/* Define Gruvbox colors */
+:root {
+    --bg_hard: #282c34;  /* Background Hard */
+    --bg: #384252;     /* Background */
+    --bg_s: #454956;    /* Background Soft */
+    --fg: #ebdbb2;      /* Foreground */
+    --red: #cc0000;     /* Red */
+    --green: #93c471;   /* Green */
+    --yellow: #d79921;  /* Yellow */
+    --blue: #6c71c4;    /* Blue */
+    --purple: #9661c3;  /* Purple */
+    --aqua: #56b6c2;    /* Aqua */
+    --gray: #abb2bf;    /* Gray */
+    --orange: #d65d0e;  /* Orange */
+  }
+  
+  /* Body styles */
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: monospace;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: var(--fg1); /* Adjust for desired contrast */
+    display: block;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Optional for vertical centering */
+  }
+  
+  /* Links */
+  a {
+    color: var(--blue);
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: var(--blue-dim); /* Consider a dimmed version of blue */
+  }
+  
+  canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  /* Code blocks */
+  pre {
+    background: var(--bg_hard);
+    color: var(--green);
+    padding: 1rem;
+    border-radius: 5px;
+  }
